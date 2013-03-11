@@ -1,0 +1,27 @@
+PRIMARY DESIGN DOC
+==================
+
+INTRO:
+This is a "Stream Of Thought" design doc, which should sound like a sales pitch for the game, or a description of it to a friend (good alternative name: the "You Should Check This Game Out" Design Dov :) ). Without further ado...
+
+CONCEPT:
+"Clockwork Mole" is an exploration/mining game in 2-D graphics, played from a side-view, where the player controls a mining drone(work name: M06U) sent to an alien planet to terraform it. The mole drone needs to dig for fuel, water and other resources, as well as build structures to aid on its objective.
+
+STORY:
+In a not so distant future... Earth is doomed. But that is not so apparent, only the most perceptive creatures on the planet realized that. So, away went the dolphins... and the moles followed right behind.
+
+The moles had a target, a distant planet that was ripe with potential for civilization. But the living conditions in it were far from ideal, and they planned ahead. They sent a probe carrying a single remote drone, identified as [M06U], with the task of preparing the planet for their come.
+
+The probe arrives and leaves M06U under the cold earth of [the planet]. Activated, the clockwork mole has [5 years] to do the best it can to make this planet the ideal place for the new dawn of moles...
+
+GAMEPLAY:
+The game is played as a 2-D platformer, but no ability to jump(initially). The drone can walk on walls and ceiling, and moves along the wall. It turn 180 to reverse its direction, and can detach from the ceiling to turn on its back(but cannot do that to latch on a ceiling, for example). This means the player should be careful when digging, so as to not leaave patches of soil that are hard to reach.
+
+The player's constraints are time(the game's time limit) and fuel. Fuel is used while the player is:
+- Moving
+- Digging
+- Fabricating
+- Idle (?)
+Obivously the fuel wasted while idling is a lot smaller than when active(and biggest while digging and fabricating). Fuel must be replenished with resources from the map. If fuel runs out completely, the game is over.
+
+THe player's drill is manually activated by pressing [SPACEBAR].
