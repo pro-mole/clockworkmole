@@ -24,4 +24,19 @@ The player's constraints are time(the game's time limit) and fuel. Fuel is used 
 - Idle (?)
 Obivously the fuel wasted while idling is a lot smaller than when active(and biggest while digging and fabricating). Fuel must be replenished with resources from the map. If fuel runs out completely, the game is over.
 
-THe player's drill is manually activated by pressing [SPACEBAR].
+The player's drill is manually activated by pressing [SPACEBAR]. It will consume fuel even if not touching any block, and will not break anything if not turned on(which is obvious, but worth mentioning).
+
+The player's radar (the blue spot over the eyes) informs what lies beyond the players's line of sight(or more accurately, what has already been dug). The initial radar power is 2 blocks away(the block that's visible and the one behind it and to the sides).
+
+The player has an inventory limited to (initially) 8 slots, that can be upgraded up to 24 slots. Each slot can hold up to 99 of one item.
+
+The player can use a Fabricator to create blocks on the map, based on the items they have available on the inventory.
+
+The player can upgrade four components: inventory, fuel, radar and drill. Upgrades are achieved with the Fabricator.
+
+ITEMS AND BLOCKS:
+
+
+
+FABRICATOR RECIPES:
+
